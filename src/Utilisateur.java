@@ -16,6 +16,16 @@ public class Utilisateur {
 	public Utilisateur() {
 	}
 
+	
+	
+	public Utilisateur(String nom, String prenom) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+	}
+
+
+
 	public Utilisateur(int id, String nom, String prenom) {
 		super();
 		this.id = id;
